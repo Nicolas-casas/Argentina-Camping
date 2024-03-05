@@ -1,0 +1,88 @@
+header {
+    position: absolute;
+    align-items: flex-end;
+}
+nav {
+    padding: 20px;
+   font-size:25px;
+   font-family: "Rubik Mono One", monospace;
+   font-weight: 400;
+   font-style: normal;
+}
+body{ background-color:white;
+
+
+}
+p {
+    font-family: "Major Mono Display", monospace;
+}
+h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;      
+    background: linear-gradient(45deg,rgb(49, 207, 255) 15%, whitesmoke 45%,yellow 15%,white, rgb(49, 207, 255) );
+    mix-blend-mode: screen;
+    font-size: 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+h2 {
+    font-size: 3rem;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.info-frase {
+    color: white;
+}
+.presentacion {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+video {
+    margin: 100px;
+    width: 75%;
+    border-radius: 25px;
+}
+.contenedor-de-video {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.contenedor-argentina {
+    display: flex;
+    justify-content: center;
+}
+.intro-pais {
+    margin-top: 30px;
+    font-weight: bold;
+}
+.pais-argentina {
+    text-align: center;
+    justify-content: center;
+    height: 1000px;
+    margin: 20px;
+    background-image: url(/mapa-papel.png);
+    border-radius: 25px;
+    width: 85%;
+}
+.provincias {
+    font-size: 2rem;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+li {
+    padding: 10px;
+}
