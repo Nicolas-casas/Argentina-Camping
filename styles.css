@@ -172,8 +172,35 @@ footer {
 }
 /* Media query */
 @media (max-width: 800px) {
-   .contenedor-de-video {
+   .video-camping {
     display: none;
+   }
+   .titulo-principal {
+    position: relative;
+    top: 40vh;
+    font-size: 1.8rem;
+      
+
+   }
+   .presentacion {
+    height: 100vh;
+    position: relative;
+    top: 50vh;
+    width: 80%;
+    font-size: 0.8rem;
+   }
+   .info-frase {
+    color: black;
+   }
+   .foto-logo {
+    height: 150px;
+    position: absolute;
+    top: 40vh;
+    left: 9%;
+   }
+   .inicio {
+    display: flex;
+    justify-content: center;
    }
 
 }
